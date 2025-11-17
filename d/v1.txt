@@ -1,0 +1,205 @@
+✅ 1. Applet – Viva Questions
+
+Q1. What is an Applet?
+A small Java program that runs inside a browser or AppletViewer.
+
+Q2. Which class must every Applet extend?
+java.applet.Applet (or JApplet for Swing)
+
+Q3. Name Applet Life Cycle Methods.
+init(), start(), stop(), destroy() and paint(Graphics g).
+
+Q4. What is the use of init()?
+Initialization → runs once when the applet loads.
+
+Q5. What is paint()?
+To draw shapes/text using the Graphics object.
+
+Q6. How do you pass parameters to an Applet?
+Using <param> tag.
+
+Q7. Difference between Applet and Application?
+Applet runs in browser; Application runs standalone (main method).
+
+Q8. Why applets are not used today?
+Security restrictions + browsers removed support.
+
+✅ 2. Package – Viva Questions
+
+Q1. What is a package?
+A group of related classes.
+
+Q2. Why use packages?
+To avoid name conflicts, organize code, access protection.
+
+Q3. Types of packages?
+Built-in & user-defined.
+
+Q4. Syntax for user-defined package?
+package mypack;
+
+Q5. How to import?
+import mypack.*;
+
+✅ 3. AWT – Viva Questions
+
+Q1. What is AWT?
+Abstract Window Toolkit — GUI library in Java.
+
+Q2. Name some AWT components.
+Button, Label, TextField, Checkbox, Choice, List.
+
+Q3. What is a Container?
+A component that can hold other components (Frame, Panel).
+
+Q4. What is Layout Manager?
+Controls the positioning of components (FlowLayout, GridLayout).
+
+✅ 4. Abstract Class – Viva Questions
+
+Q1. What is an abstract class?
+A class that cannot be instantiated.
+
+Q2. What is an abstract method?
+A method without body.
+
+Q3. Why use abstract classes?
+To force subclasses to implement methods.
+
+Q4. Can an abstract class have constructors?
+Yes.
+
+Q5. Can an abstract class have concrete methods?
+Yes.
+
+✅ 5. Constructors – Viva Questions
+
+Q1. What is a constructor?
+A special method that initializes an object.
+
+Q2. Types of constructors?
+Default, parameterized, copy.
+
+Q3. Can constructors be overloaded?
+Yes.
+
+Q4. Can constructors be inherited?
+No.
+
+Q5. Can constructors be abstract or static?
+No.
+
+✅ 6. Swing – Viva Questions
+
+Q1. What is Swing?
+A lightweight GUI toolkit built on top of AWT.
+
+Q2. Difference between AWT and Swing?
+Swing is lightweight, platform-independent, more powerful.
+
+Q3. Swing top-level containers?
+JFrame, JDialog, JApplet.
+
+Q4. Swing components?
+JButton, JLabel, JTextField, JTable, JPanel.
+
+✅ 7. Class – Viva Questions
+
+Q1. What is a class?
+A blueprint for creating objects.
+
+Q2. What does a class contain?
+Data members + methods.
+
+Q3. Is class a reference type or value type?
+Reference type.
+
+✅ 8. Object – Viva Questions
+
+Q1. What is an object?
+An instance of a class.
+
+Q2. How do you create an object?
+ClassName obj = new ClassName();
+
+Q3. Where are objects stored?
+Heap memory.
+
+✅ 9. Token – Viva Questions
+
+Q1. What is a token?
+Smallest element of a Java program.
+
+Q2. Types of tokens?
+Keywords, identifiers, literals, operators, separators.
+
+✅ 10. JDBC Drivers – Viva Questions
+
+Q1. What is JDBC?
+Java Database Connectivity — API to connect Java with databases.
+
+Q2. Types of JDBC drivers?
+Type 1: JDBC-ODBC
+Type 2: Native API
+Type 3: Net Protocol
+Type 4: Pure Java Driver (most used)
+
+Q3. Which driver is fastest?
+Type 4.
+
+✅ 11. JDK vs JVM – Viva Questions
+
+Q1. What is JVM?
+Java Virtual Machine — runs Java bytecode.
+
+Q2. What is JDK?
+Java Development Kit — contains compiler + JVM + tools.
+
+Q3. Difference?
+JVM runs code.
+JDK compiles + packages + runs.
+
+✅ 12. Subclass / Superclass – Viva Questions
+
+Superclass → parent class
+Subclass → child class
+
+Q1. Can subclass override methods?
+Yes.
+
+Q2. Can subclass access private members?
+No.
+
+✅ 13. Interface – Viva Questions
+
+Q1. What is an interface?
+A fully abstract class (in old Java).
+
+Q2. Can interface have variables?
+Yes → public static final.
+
+Q3. Can interface have constructors?
+No.
+
+Q4. Multiple inheritance?
+Yes, through interfaces.
+
+✅ 14. Java Features – Viva Questions
+
+Most important 8 features:
+
+Simple
+
+Object Oriented
+
+Platform Independent
+
+Secure
+
+Robust
+
+Multithreaded
+
+Portable
+
+High Performance (JIT)

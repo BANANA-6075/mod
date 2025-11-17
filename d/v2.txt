@@ -1,0 +1,171 @@
+🔵 1. APPLET
+Q1. What is an Applet?
+
+A small Java program that runs inside a browser or appletviewer.
+
+Q2. Applet life-cycle methods?
+
+init() – initialization
+
+start() – start/restart
+
+paint(Graphics g) – drawing
+
+stop() – pause
+
+destroy() – memory release
+
+Q3. Why applet cannot have a main()?
+
+Because browser controls the applet lifecycle.
+
+Q4. How to load an applet?
+
+Using <applet> tag or appletviewer.
+
+🔵 2. PACKAGE
+Q5. What is a package?
+
+A group of related classes and interfaces.
+
+Q6. Types of packages?
+
+Built-in (java.util, java.awt, java.io)
+
+User-defined
+
+Q7. Why use packages?
+
+Reusability, Security, Avoid name conflicts, Better organization.
+
+🔵 3. AWT
+Q8. What is AWT?
+
+Abstract Window Toolkit — GUI library for components like Button, Label.
+
+Q9. What is a container?
+
+A component that holds other components (Frame, Panel).
+
+Q10. What is event handling?
+
+Processing actions like mouse clicks, key presses.
+
+🔵 4. ABSTRACT CLASS
+Q11. What is an abstract class?
+
+A class declared with abstract keyword that cannot be instantiated.
+
+Q12. Why use abstract class?
+
+To provide partial implementation.
+
+🔵 5. INTERFACE
+Q13. What is an interface?
+
+A fully abstract class containing only abstract methods (Java 8: default, static also allowed).
+
+Q14. Difference between abstract class and interface?
+Abstract Class	Interface
+Has concrete + abstract methods	Only abstract methods (before Java 8)
+Can have constructors	No constructor
+Single inheritance	Supports multiple inheritance
+🔵 6. CONSTRUCTORS
+Q15. What is a constructor?
+
+A special method used to initialize objects.
+
+Q16. Types of constructors?
+
+Default
+
+Parameterized
+
+Copy constructor (manually written)
+
+🔵 7. SWING
+Q17. What is Swing?
+
+A lightweight GUI toolkit providing controls like JFrame, JButton.
+
+Q18. Difference AWT vs Swing?
+
+Swing is lightweight, platform-independent
+
+AWT is heavyweight, depends on OS
+
+🔵 8. CLASS & OBJECT
+Q19. What is a class?
+
+A blueprint/template for objects.
+
+Q20. What is an object?
+
+An instance of a class.
+
+🔵 9. TOKENS
+Q21. What are tokens in Java?
+
+Smallest elements:
+Keywords, Identifiers, Literals, Operators, Separators.
+
+🔵 10. JDBC DRIVERS
+Q22. What is JDBC?
+
+Java Database Connectivity — API for database access.
+
+Q23. Types of JDBC drivers?
+
+Type 1 – JDBC-ODBC bridge
+
+Type 2 – Native API
+
+Type 3 – Network protocol
+
+Type 4 – Thin driver (pure Java)
+
+🔵 11. JVM vs JDK
+Q24. What is JVM?
+
+Java Virtual Machine — runs Java bytecode.
+
+Q25. What is JDK?
+
+Java Development Kit — tools + compiler + JRE.
+
+Q26. Relationship?
+
+JDK ⟶ includes JRE ⟶ includes JVM.
+
+🔵 12. SUBCLASS / SUPERCLASS
+Q27. What is superclass?
+
+A parent class.
+
+Q28. What is subclass?
+
+A child class that inherits from superclass.
+
+🔵 13. JAVA FEATURES
+Q29. Features of Java?
+
+Platform independent, Object-oriented, Secure, Robust, Multithreaded, Portable, High performance.
+
+🔵 Extra Definitions
+Instantiated meaning
+
+Creating an object using new.
+
+Abstract method
+
+A method without body.
+
+Concrete method
+
+A method with full implementation.
+
+
+
+API stands for Application Programming Interface.
+
+👉 It is a set of pre-written classes, methods, and rules provided by Java (or any software) so that developers can reuse functionality without writing code from scratch.
